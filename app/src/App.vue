@@ -29,7 +29,7 @@ let getDateDiff = function(startDate, endDate) {
     var dates = Math.abs((startTime - endTime)) / (1000 * 60 * 60 * 24);
     return dates;
 }
-document.title += getDateDiff((new Date()).getFullYear() + '-' + ((new Date()).getMonth() + 1) + '-' + (new Date()).getDate(), '2016-09-15') + 1 + '天';
+document.title += getDateDiff((new Date()).getFullYear() + '-' + ((new Date()).getMonth() + 1) + '-' + (new Date()).getDate(), '2010-02-19') + 1 + '天';
 export default {
     name: 'app',
     components: {
@@ -43,12 +43,14 @@ export default {
             enableHtml: false,
             fullStyle: [
                 `/*
-* Hi。宝贝！
-* 这么久了。还没和宝贝说过我的工作呢！
-* 我是个前端工程师。俗称程序员。网页相关。
-* 如这个页面。就是个什么也没有的网页。
-* 我的工作就是给这种空白的页面加点儿东西。
-* 嗯。说起来手机和电脑还得区分一下。
+* Dear Baby
+* 今天是你生日，但是我并没有给你准备什么惊喜的生日礼物。
+* 作为一个程序员，我每天都在为别人敲代码，现在我想敲给你。
+* 首先这就是我的工作...。
+* 早上起床按时上班，到了公司打开电脑，领导安排任务，然后就是各种敲..。
+* 在这里用我这两天学到的新技能来show一下。
+* 嗯...先告诉我你用的是电脑还是手机...。
+* .................................
 * 你现在用的是。。。${isPc ? '电脑' : '手机'}
 */
 
